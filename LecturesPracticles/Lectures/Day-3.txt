@@ -1,0 +1,23 @@
+1. Download, Extract, and Run Eclipse
+https://www.eclipse.org/downloads/packages/
+
+2. Create, Close, and Open Project
+- File -> New -> Project -> Other project -> Java Project
+- Specify Project Name
+
+3. Create package (sub folder)
+- right click on src - new - package - package name
+
+4. Create class, main method, and run class (compile, and run)
+- right click on package
+- new - class - class name 
+
+5. Keywords
+
+6. Identifiers
+
+7. Data Types
+
+8. Variables
+
+
