@@ -1,0 +1,32 @@
+Data Types
+- Numeric (byte, short, int, long, float, double)
+- Non Numeric (boolean, char, String, Object)
+
+Numeric -> whole number, real number
+
+# Primitive types/Basic types
+byte, short, int, long, float, double, boolean, char
+
+# Reference type/Extended type
+String, Object
+
+# Class Type/User defined type (Extended type)
+
+# Array types
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
