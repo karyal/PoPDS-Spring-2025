@@ -1,4 +1,4 @@
-package week2;
+package week2.day1;
 
 public class Operators {
 	public static void main(String[] args) {
@@ -77,19 +77,16 @@ public class Operators {
 		
 		//-- decrement operator - decrease by 1 (whole number)
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		int num5 = 1;
+		System.out.println(num5); //1
+		num4-=1; //increase by 1
+		System.out.println(num5); //2
+		num5=num5-1; //increase by 1
+		System.out.println(num5); //3
+		num5--; //increase by 1 //post-increment operator
+		System.out.println(num5);//4
+		--num5; //increase by 1 //pre-increment operator
+		System.out.println(num5);//5
+				
 	}
 }
