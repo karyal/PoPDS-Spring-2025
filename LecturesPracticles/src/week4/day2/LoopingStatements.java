@@ -11,17 +11,15 @@ public class LoopingStatements {
 		//for loop
 		//foreach loop
 		
-		//while loop
-		
+		//while loop	
 		//Example-1
-		/*
 		int start=1; //start
 		int stop=5; //stop
 		while(start<=stop) { //condition
 			System.out.println("PCPS"); //statement(s)
 			start++; //modifier
 		}
-		*/
+
 		
 		//Example-2
 		/*
