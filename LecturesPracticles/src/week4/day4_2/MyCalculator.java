@@ -6,4 +6,19 @@ public class MyCalculator {
 		numbers.setNum3(tmpNumber);
 		return numbers;
 	}
+	public Numbers diff(Numbers numbers) {
+		int tmpNumber=numbers.getNum1()-numbers.getNum2();
+		numbers.setNum3(tmpNumber);
+		return numbers;
+	}
+	public Numbers prd(Numbers numbers) {
+		int tmpNumber=numbers.getNum1()*numbers.getNum2();
+		numbers.setNum3(tmpNumber);
+		return numbers;
+	}
+	public Numbers div(Numbers numbers) {
+		int tmpNumber=numbers.getNum1()/numbers.getNum2();
+		numbers.setNum3(tmpNumber);
+		return numbers;
+	}
 }
