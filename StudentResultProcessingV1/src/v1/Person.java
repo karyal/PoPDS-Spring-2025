@@ -1,4 +1,4 @@
-package week5.day4;
+package v1;
 
 public class Person {
 	private int pid;

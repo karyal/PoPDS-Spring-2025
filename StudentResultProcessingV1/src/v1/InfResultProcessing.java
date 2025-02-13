@@ -1,4 +1,4 @@
-package week5.day4;
+package v1;
 
 public interface InfResultProcessing {
 	public double calculateTotal(double dcn_cn, double dcn_db, double pop_ds);

@@ -1,4 +1,4 @@
-package week5.day4;
+package week5.day4.student_processing;
 
 public class StudentResult extends Student{
 	private double dcn_db;

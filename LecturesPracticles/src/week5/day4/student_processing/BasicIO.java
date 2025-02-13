@@ -1,4 +1,4 @@
-package week5.day4;
+package week5.day4.student_processing;
 import java.util.Scanner;
 
 public class BasicIO implements InfBasicIO {
