@@ -1,0 +1,16 @@
+package week4.day2;
+
+public class LoopingStatements {
+
+	public static void main(String[] args) {
+		//Looping statements
+		//Execute/run the code (statement(s)) multiple time
+		
+		//whole loop
+		//do while loop
+		//for loop
+		//foreach next loop
+		
+	}
+
+}

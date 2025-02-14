@@ -1,0 +1,17 @@
+package working.nested_classes;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Class1 obj1 = new Class1();
+		Class1.Class2 obj2_1 = obj1.new Class2();
+		
+		Class1.Class2 obj2_2 = obj1.new Class2();
+		
+		obj2.f1();
+		
+		
+
+	}
+
+}

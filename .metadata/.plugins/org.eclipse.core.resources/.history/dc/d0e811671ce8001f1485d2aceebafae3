@@ -1,0 +1,13 @@
+package week5.day2;
+
+public class ScopeLifetime {
+
+	//Life-time - store in memory
+	//Scope - Visibility
+	public static void main(String[] args) {
+		int num1;
+		int num2;
+
+	}
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="week2.day5_class2.MyMath"/>
+    <fullyQualifiedTypeName name="pkg1.MyClass"/>
+    <fullyQualifiedTypeName name="week4.day4_2.StudentProcessing"/>
+    <fullyQualifiedTypeName name="week5.day1.UjwalCalculator"/>
+    <fullyQualifiedTypeName name="week5.day1.SakarCalculator"/>
+    <fullyQualifiedTypeName name="week5.day1.Inf2Implement"/>
+    <fullyQualifiedTypeName name="week5.day2.Class1"/>
+    <fullyQualifiedTypeName name="working.nested_classes.Class1.Class2"/>
+    <fullyQualifiedTypeName name="working.nested_classes.Class1"/>
+    <fullyQualifiedTypeName name="week5.day4.StudentResult"/>
+    <fullyQualifiedTypeName name="week5.day4.InfResultProcessing"/>
+</qualifiedTypeNameHistroy>

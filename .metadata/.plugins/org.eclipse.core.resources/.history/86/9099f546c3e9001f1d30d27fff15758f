@@ -1,0 +1,8 @@
+package week5.day4;
+
+public interface InfBasicIO {
+	public void printMessage(String message);//prompt for user
+	public void printMessage(String label, String message);//Display Strings
+	public void printMessage(String label, double num1);//Display String and double
+	
+}

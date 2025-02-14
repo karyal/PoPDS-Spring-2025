@@ -1,0 +1,14 @@
+package week4.day5_2;
+
+public class StaffTest {
+
+	public static void main(String[] args) {
+		//declare, initialize, get
+		//Person, and Staff class
+		
+		Person p1 = new Person(1, "Aayush Thapa");
+		Staff s1 = new Staff("Finance", "Manager");
+
+	}
+
+}

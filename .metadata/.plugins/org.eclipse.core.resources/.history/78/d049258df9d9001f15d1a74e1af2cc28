@@ -1,0 +1,12 @@
+//WAP which accept two numbers from user and display the largest.
+
+package week2.day5;
+
+public class Task3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

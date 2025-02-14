@@ -1,0 +1,24 @@
+package week4.day2;
+
+public class JumpingStatements {
+
+	public static void main(String[] args) {
+		//break
+		
+		//Example-1
+		for(int i=1; i<=100; i++) {
+			System.out.print(i+" ");
+			if(i==5)
+				break;
+		}
+		
+		//continue
+		for(int i=1; i<=100; i++) {
+			
+		}
+		
+		//return
+
+	}
+
+}

@@ -1,0 +1,13 @@
+//Explore the Math Class of Java (System defined class)
+package week2.day5;
+
+import java.lang.Math;
+
+public class ExploreMathClass {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

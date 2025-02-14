@@ -1,0 +1,9 @@
+package week4.day2;
+
+public class LoopingStatements {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

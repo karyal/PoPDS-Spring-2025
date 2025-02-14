@@ -1,0 +1,19 @@
+//Explore the Math Class of Java (System defined class)
+package week2.day5;
+
+import java.lang.Math;
+import java.util.Scanner;
+
+public class ExploreMathClass {
+
+	public static void main(String[] args) {
+		//max(a:int, b:int):int
+		int n1, n2, n3;
+		n1=56;
+		n2=78;
+		n3 = Math.max(n1, n2);
+		
+
+	}
+
+}

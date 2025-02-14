@@ -1,0 +1,10 @@
+package week5.day3;
+
+public class Student {
+	private String course;
+	private String level;
+	//Constructors
+	//Setters
+	//Getters
+	//toString
+}

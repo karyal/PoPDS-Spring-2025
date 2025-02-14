@@ -1,0 +1,10 @@
+package week5.day2;
+
+public class Class3 extends Class1{
+	public Class3() {
+		super.num1=9;
+		super.num2=7;
+		super.num3=5;
+		super.num4=8;
+	}
+}

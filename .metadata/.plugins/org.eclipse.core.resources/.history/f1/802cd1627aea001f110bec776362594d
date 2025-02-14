@@ -1,0 +1,12 @@
+package week5.day5;
+
+public class BasicIO implements InfBasicIO{
+	@Override
+	public void printMessage(String message) {
+		
+	}
+	@Override
+	public Integer readInteger() {
+		
+	}
+}

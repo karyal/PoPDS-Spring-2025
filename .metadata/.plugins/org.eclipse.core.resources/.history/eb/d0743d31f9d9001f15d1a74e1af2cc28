@@ -1,0 +1,49 @@
+
+//WAP which accept two numbers from user
+	//calculate sum, dif, prd, quo, rem and display.
+
+package week2.day5;
+
+import java.util.Scanner;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		//declare
+		int num1;
+		int num2;
+		int sum;
+		int diff;
+		int prd;
+		int quo;
+		int rem;
+		String strFirst;
+		String strSecond;
+
+
+		//input
+		System.out.print("Enter first number"); //prompt to user
+		strFirst= new Scanner(System.in).nextLine(); //read string from keyboard
+
+		System.out.print("Enter Second number");
+		strSecond= new Scanner(System.in).nextLine();
+
+
+		//process
+		num1=Integer.parseInt(strFirst); //string to int conversion
+		num2=Integer.parseInt(strSecond);
+
+		sum=(num1 + num2); //calculate sum of two numbers
+		diff=(num1 - num2); //calculate difference of two numbers
+		quo=(num1 / num2); //calculate quotient of two numbers
+		rem=(num1 % num2); //calculate remainder of two numbers
+
+
+		//output
+
+		System.out.println("Sum of two numbers is: " + sum);
+		System.out.println("Difference of two numbers is: " + diff);
+		System.out.println("Quotient of two numbers is: " + quo);
+		System.out.println("Remainder of two numbers is: " + rem);
+	}
+}

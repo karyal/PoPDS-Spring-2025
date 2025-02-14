@@ -1,0 +1,7 @@
+package week5.day3;
+
+public interface InfResultProcessing {
+	public double calculateResult();
+	public double calcuateAverage();
+	public String calculateResult();
+}

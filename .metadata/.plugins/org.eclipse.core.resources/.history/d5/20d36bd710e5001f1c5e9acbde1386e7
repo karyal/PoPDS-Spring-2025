@@ -1,0 +1,22 @@
+package week4.day5_2;
+
+public class Class3 extends Class2{
+	private int n3;
+	public Class3() {
+		super();
+		this.n3=0;
+	}
+	public Class3(int n1, int n2) {
+		super(n1, n2);
+		this.n3=0;
+	}
+	public Class3(int n1, int n2, int n3) {
+		super(n1, n2);
+		this.n3=n3;
+	}
+	//Setters for n1, n2, n3
+	@Override
+	
+	//Getters of n1, n2, n3
+	//toString of n1, n2, n3
+}

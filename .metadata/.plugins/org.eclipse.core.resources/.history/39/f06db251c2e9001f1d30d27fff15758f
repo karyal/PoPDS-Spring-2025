@@ -1,0 +1,25 @@
+package week5.day4;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		StudentResult sr = new StudentResult();
+		
+		sr.setPID(1);
+		sr.setFullName("Kiran Rai");
+		sr.setCourse("BSc SE");
+		sr.setLevel("Level-4");
+		sr.setDCNCN(56);
+		sr.setDCNDB(78);
+		sr.setPOPDS(53);
+		
+		//Result Processing
+		ResultProcessing rp = new ResultProcessing();
+		double tmpTotal = rp.calculateTotal(sr.getDCNCN(), sr.getDCNDB(), sr.getPOPDS());
+		sr.setTotal(tmpTotal);
+		double tmpAvg = rp.calcuateAverage(tmpTotal);
+		System.out.println(sr);
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package week2.day5;
+
+//WAP which accept two numbers from user, calculate sum, and display.
+public class Task1 {
+
+	public static void main(String[] args) {
+		//declare
+		//input
+		//process
+		//output
+	}
+}

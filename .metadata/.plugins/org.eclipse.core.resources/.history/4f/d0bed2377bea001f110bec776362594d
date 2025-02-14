@@ -1,0 +1,37 @@
+package week5.day5;
+
+import java.util.Random;
+
+public class ArrayTest {
+
+	public static int getNumber() {
+		Random random=new Random();
+		Integer rNumber = random.nextInt(100);
+		return(rNumber);
+	}
+	
+	public static Integer[] generateNumbers(Integer []nums) {
+		for(int i=0; i<Global.MAX; i++) {
+			nums[i]=getNumber();
+		}
+		return nums;
+	}
+	
+	public static void printNumbers(Integer []nums) {
+		for(int i=0; i<Global.MAX; i++) {
+			System.out.print(nums[i]+" ");
+		}
+		System.out.println();
+	}
+	
+	public static 
+	public static void main(String[] args) {
+		Integer nums[]=new Integer[Global.MAX];
+		nums=generateNumbers(nums);
+		printNumbers(nums);
+		BasicIO bio=new BasicIO();
+		bio.printMessage("Enter any number to search :");
+		Integer tmp=bio.readInteger();
+		System.out.println(tmp);
+	}
+}

@@ -1,0 +1,32 @@
+package week4.day2;
+
+public class LoopingStatements {
+
+	public static void main(String[] args) {
+		//Looping statements
+		//Execute/run the code (statement(s)) multiple time
+		
+		//while loop
+		//do while loop
+		//for loop
+		//foreach loop
+		
+		//while loop
+		//Example-1
+		int start=1;
+		int stop=10;
+		while(start<=stop) {
+			System.out.println("PCPS");
+			start++;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package week4.day2;
+
+public class JumpingStatements {
+
+	public static void main(String[] args) {
+		//break
+		//Example-1
+		
+		//continue
+		//return
+
+	}
+
+}
