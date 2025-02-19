@@ -1,9 +1,0 @@
-package week5.day1;
-
-public class Inf2Implement {
-
-	public static void main(String[] args) {
-		System.out.println(Inf2.COLLEGE);
-		System.out.println(Inf2.PM);
-	}
-}

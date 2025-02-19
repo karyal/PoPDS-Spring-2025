@@ -1,8 +1,0 @@
-package week5.day2;
-
-public class Class1 {
-	int num1;
-	public int num2;
-	private int num3;
-	protected int num4;
-}

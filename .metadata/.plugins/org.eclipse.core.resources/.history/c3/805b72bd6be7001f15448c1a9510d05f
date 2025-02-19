@@ -1,5 +1,0 @@
-package week5.day1;
-
-public interface Inf1 {
-	//final and static variable
-}

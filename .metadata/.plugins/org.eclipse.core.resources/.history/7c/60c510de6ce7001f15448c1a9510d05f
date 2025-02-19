@@ -1,9 +1,0 @@
-package week5.day1;
-
-public interface Inf2 {
-	int PM=40;
-	String COLLEGE="PCPS College";
-	public void sum(int num1, int num2);
-	public void prd(int num1, int num2);
-	
-}

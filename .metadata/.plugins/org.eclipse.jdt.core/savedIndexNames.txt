@@ -1,17 +1,5 @@
 INDEX VERSION 1.134+D:\MyDocuments\PoPDS\PoPDS-Spring-2025\.metadata\.plugins\org.eclipse.jdt.core
-3873139765.index
-1594653970.index
-1865797976.index
 2769266282.index
-3454843169.index
-1926931799.index
-3545611794.index
 3115028570.index
 3328120085.index
-499952495.index
-907999544.index
-1714138156.index
-2999488313.index
-3242807604.index
-465994836.index
-2846115605.index
+1865797976.index
