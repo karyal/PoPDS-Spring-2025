@@ -1,7 +1,0 @@
-package working.nested_classes;
-
-public class Class2_1 {
-	public void f1() {
-		class Class3
-	}
-}

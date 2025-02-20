@@ -12,4 +12,6 @@
     <fullyQualifiedTypeName name="working.nested_classes.Class1"/>
     <fullyQualifiedTypeName name="week5.day4.StudentResult"/>
     <fullyQualifiedTypeName name="week5.day4.InfResultProcessing"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

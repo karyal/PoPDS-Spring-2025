@@ -37,8 +37,8 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="654"/>
-		<item key="DIALOG_Y_ORIGIN" value="163"/>
+		<item key="DIALOG_X_ORIGIN" value="511"/>
+		<item key="DIALOG_Y_ORIGIN" value="124"/>
 		<item key="DIALOG_WIDTH" value="700"/>
 		<item key="DIALOG_HEIGHT" value="783"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -59,6 +59,8 @@
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 	</section>
 	<section name="JarPackageWizard">
 		<item key="JarPackageWizardPage.EXPORT_CLASS_FILES" value="true"/>
