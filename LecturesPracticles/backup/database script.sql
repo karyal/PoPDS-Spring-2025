@@ -13,6 +13,8 @@ insert into persons values(2, 'Ujjwal', 'ujjwal@gmail.com');
 
 -- Select Record
 Select * from persons;
+SELECT * FROM persons WHERE full_name='Ujjwal';
+
 
 -- Update Record
 update persons set full_name='Raj Sharma' where pid=1;
