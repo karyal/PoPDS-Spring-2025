@@ -1,5 +1,0 @@
-package week5.day5;
-
-public class Global {
-	public static int MAX=20;
-}
