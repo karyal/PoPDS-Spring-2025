@@ -11,14 +11,41 @@ public class Test {
 		//new PersonCRUDV2().update();//?
 		//new PersonCRUDV2().delete();//?
 		
-		//PersonCRUDV3 Test
+//PersonCRUDV3 Test
 		//Connect with database
-		new PersonCRUDV3().connect();
+		//new PersonCRUDV3().connect();
 		
 		//Insert Record
 		int pid=9;
 		String fullName="Sudan Rai";
 		String email="sudan@gmail.com";
+		//new PersonCRUDV3().insert(pid, fullName, email);
+		
+		//Update Record
+		pid=9;
+		fullName="Sudan Kr Rai";
+		email="sudan.rai@gmail.com";
+		//new PersonCRUDV3().update(pid, fullName, email);
+		
+		//Delete Record
+		pid=9;
+		//new PersonCRUDV3().delete(pid);
+		
+		//Select All
+		new PersonCRUDV3().all();
+		
+		//Search based on PID
 		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
