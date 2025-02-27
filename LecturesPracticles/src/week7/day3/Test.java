@@ -1,5 +1,7 @@
 package week7.day3;
 
+import java.util.List;
+
 //persons(pid:int, full_name varchar(50), email varcahr(50))
 public class Test {
 
@@ -32,10 +34,13 @@ public class Test {
 		//new PersonCRUDV3().delete(pid);
 		
 		//Select All
-		new PersonCRUDV3().all();
+		List<Person> persons = new PersonCRUDV3().all(); //get all persons
+		for(Person person: persons) {
+			System.out.println(person); //print person individually
+		}
 		
 		//Search based on PID
-		
+		//
 	}
 }
 
