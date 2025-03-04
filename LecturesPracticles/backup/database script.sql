@@ -18,6 +18,8 @@ SELECT * FROM persons WHERE full_name='Ujjwal';
 
 -- Update Record
 update persons set full_name='Raj Sharma' where pid=1;
+UPDATE persons SET full_name='Ujjwal Yadav' WHERE pid=2;
+
 
 -- Delete Record
 Delete from persons where pid=1;
