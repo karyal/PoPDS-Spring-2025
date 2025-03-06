@@ -12,7 +12,7 @@ public class MainWindow extends Application{
 		FlowPane pane = new FlowPane();
 		Scene scene = new Scene(pane);
 		
-		primaryStage.setTitle("User Login Window");
+		primaryStage.setTitle("Main Window");
 		//primaryStage.setWidth(350);
 		//primaryStage.setHeight(300);
 		primaryStage.setAlwaysOnTop(true);
@@ -22,8 +22,8 @@ public class MainWindow extends Application{
 		
 	}
 	
-	public static void main(String[] args) {
-		launch(args);
-	}
+//	public static void main(String[] args) {
+//		launch(args);
+//	}
 	
 }

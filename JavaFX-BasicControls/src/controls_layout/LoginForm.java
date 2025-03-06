@@ -43,11 +43,16 @@ public class LoginForm extends Application {
 		btnLogin=new Button("Login"); //setOnAction
 		btnLogin.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
-			public void handle(ActionEvent arg0) {
+			public void handle(ActionEvent actionEvent) {
 				//code for btnLogin - Click
 				//display main window
-				new MainWindow();//Logical Error?
-				primaryStage.close();//close
+				try {
+					new MainWindow().start(new Stage());
+					primaryStage.close();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}//Logical Error?
+				//primaryStage.close();//close
 			}
 		});
 		
