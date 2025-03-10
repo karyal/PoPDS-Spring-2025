@@ -28,7 +28,7 @@ public class MyDatabase {
 	public boolean close(Connection conn) {
 		boolean result = false;
 		try {
-			if (conn.isOpen()) {
+			if (!conn.isClosed()) {
 				conn.close();
 				result = true;
 			}
