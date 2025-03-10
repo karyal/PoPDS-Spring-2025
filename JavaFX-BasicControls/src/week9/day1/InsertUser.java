@@ -1,6 +1,8 @@
 package week9.day1;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -74,6 +76,26 @@ public class InsertUser extends Application {
 		lblMessage = new Label("Message");
 		lblMessage.relocate(50, 430);
 		lblMessage.setFont(font1);
+		
+		btnSave.setOnAction(new EventHandler<ActionEvent>() {
+			@Override
+			public void handle(ActionEvent arg0) {
+				User user=new User();
+				user.setUid(Integer.parseInt(txtUid.getText()));
+				user.setFullName(txtName.getText());
+				user.setAddress(txtAddress.getText());
+				user.setEmail(txtEmail.getText());
+				user.setLoginID(txtLoginID.getText());
+				user.setLoginPassword(txtLoginPassword.getText());
+				boolean result = new UserCRUD().insert(user);
+				if(result==true) {
+					lblMessage.setText("Insert User Successfully");
+				}
+				else {
+					lblMessage.setText("Error to insert User");
+				}
+			}
+		});
 		
 		//FlowPane pane=new FlowPane();
 		Pane pane=new Pane();
