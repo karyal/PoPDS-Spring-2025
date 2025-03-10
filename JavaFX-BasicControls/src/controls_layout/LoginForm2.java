@@ -19,6 +19,7 @@ public class LoginForm2 extends Application {
 		
 		Scene scene=new Scene(pane);	
 		primaryStage.setScene(scene);
+		
 		primaryStage.setTitle("User Login Window");
 		primaryStage.setWidth(350);
 		primaryStage.setHeight(300);

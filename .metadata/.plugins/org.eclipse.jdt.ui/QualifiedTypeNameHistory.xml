@@ -21,7 +21,6 @@
     <fullyQualifiedTypeName name="javafx.scene.Scene"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Dialog"/>
     <fullyQualifiedTypeName name="javafx.scene.text.Text"/>
-    <fullyQualifiedTypeName name="javafx.scene.text.Font"/>
     <fullyQualifiedTypeName name="java.awt.MenuBar"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.FlowPane"/>
@@ -34,7 +33,6 @@
     <fullyQualifiedTypeName name="javafx.scene.control.ToggleGroup"/>
     <fullyQualifiedTypeName name="javafx.scene.control.ScrollBar"/>
     <fullyQualifiedTypeName name="javafx.scene.control.ScrollPane"/>
-    <fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
     <fullyQualifiedTypeName name="javafx.scene.shape.Rectangle"/>
     <fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
     <fullyQualifiedTypeName name="javafx.scene.control.TableColumn"/>
@@ -42,11 +40,20 @@
     <fullyQualifiedTypeName name="javafx.scene.control.MenuBar"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Menu"/>
     <fullyQualifiedTypeName name="javafx.scene.control.MenuItem"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
     <fullyQualifiedTypeName name="javafx.scene.control.PasswordField"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
     <fullyQualifiedTypeName name="javafx.application.Application"/>
     <fullyQualifiedTypeName name="controls_layout.MainWindow"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
+    <fullyQualifiedTypeName name="com.sun.prism.paint.Color"/>
+    <fullyQualifiedTypeName name="javafx.scene.text.Font"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="javafx.scene.layout.BackgroundFill"/>
+    <fullyQualifiedTypeName name="javafx.scene.paint.Paint"/>
+    <fullyQualifiedTypeName name="javafx.scene.paint.Color"/>
+    <fullyQualifiedTypeName name="javafx.geometry.Insets"/>
+    <fullyQualifiedTypeName name="javafx.scene.image.Image"/>
+    <fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
     <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
 </qualifiedTypeNameHistroy>
