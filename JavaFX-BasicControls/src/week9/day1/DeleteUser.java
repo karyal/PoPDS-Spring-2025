@@ -9,16 +9,16 @@ import javafx.scene.layout.Pane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
-public class EditUser extends Application {
+public class DeleteUser extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		
 		Label lblTitle, lblUid, lblName, lblAddress, lblEmail, lblLoginID, lblLoginPassword, lblMessage;
 		TextField txtUid, txtName, txtAddress, txtEmail, txtLoginID, txtLoginPassword;
-		Button btnSearch, btnEdit, btnClose;
+		Button btnSearch, btnDelete, btnClose;
 		
-		lblTitle=new Label("Edit User Form");
+		lblTitle=new Label("Delete User Form");
 		lblTitle.relocate(50, 0);
 		Font font = new Font("Arial", 20);
 		lblTitle.setFont(font);
@@ -69,8 +69,8 @@ public class EditUser extends Application {
 		txtLoginPassword=new TextField();
 		txtLoginPassword.relocate(50,370);
 		
-		btnEdit=new Button("Edit");
-		btnEdit.relocate(50, 400);
+		btnDelete=new Button("Delete");
+		btnDelete.relocate(50, 400);
 		
 		btnClose=new Button("Close");
 		btnClose.relocate(150, 400);
@@ -96,7 +96,7 @@ public class EditUser extends Application {
 		pane.getChildren().addAll(lblEmail, txtEmail);
 		pane.getChildren().addAll(lblLoginID, txtLoginID);
 		pane.getChildren().addAll(lblLoginPassword, txtLoginPassword);
-		pane.getChildren().addAll(btnEdit, btnClose, lblMessage);
+		pane.getChildren().addAll(btnDelete, btnClose, lblMessage);
 		primaryStage.show();
 		
 	}
