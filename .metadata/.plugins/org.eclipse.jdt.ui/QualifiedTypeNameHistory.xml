@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="com.mysql.cj.protocol.x.SyncFlushDeflaterOutputStream"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="javafx.scene.Scene"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Dialog"/>
@@ -43,11 +42,7 @@
     <fullyQualifiedTypeName name="javafx.scene.control.PasswordField"/>
     <fullyQualifiedTypeName name="javafx.application.Application"/>
     <fullyQualifiedTypeName name="controls_layout.MainWindow"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
     <fullyQualifiedTypeName name="com.sun.prism.paint.Color"/>
-    <fullyQualifiedTypeName name="javafx.scene.text.Font"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
     <fullyQualifiedTypeName name="java.awt.Color"/>
     <fullyQualifiedTypeName name="javafx.scene.layout.BackgroundFill"/>
     <fullyQualifiedTypeName name="javafx.scene.paint.Paint"/>
@@ -55,5 +50,13 @@
     <fullyQualifiedTypeName name="javafx.geometry.Insets"/>
     <fullyQualifiedTypeName name="javafx.scene.image.Image"/>
     <fullyQualifiedTypeName name="javafx.scene.image.ImageView"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.TextField"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
+    <fullyQualifiedTypeName name="javafx.scene.text.Font"/>
+    <fullyQualifiedTypeName name="com.sun.jdi.connect.spi.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="week9.day1.MyDatabase"/>
     <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
+    <fullyQualifiedTypeName name="week9.day1.UserCRUD"/>
 </qualifiedTypeNameHistroy>
