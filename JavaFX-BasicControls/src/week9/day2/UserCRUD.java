@@ -86,6 +86,26 @@ public class UserCRUD extends MyDatabase implements InfUserCRUD {
 		return result;
 	}
 	
+	@Override
+	public boolean delete(int uid) {		
+		boolean result=false;
+		Connection conn;
+		String strSQL="DELETE FROM users WHERE uid=?;";
+		PreparedStatement pStat;		
+		try {
+			conn = connect();
+			pStat = conn.prepareStatement(strSQL);
+			pStat.setInt(1, uid);			
+			pStat.executeUpdate(); //insert, update, delete
+			pStat.close();
+			close(conn);
+			result=true;
+		}
+		catch(Exception ex) {
+			System.out.println("Error : "+ex.getMessage());
+		}
+		return result;
+	}
 	//Search
 	//SelectALL
 	//Update
