@@ -1,6 +1,8 @@
 package week9.day2;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -78,6 +80,39 @@ public class EditUser extends Application {
 		lblMessage = new Label("Message");
 		lblMessage.relocate(50, 430);
 		lblMessage.setFont(font1);
+		
+		btnClose.setOnAction(new EventHandler<ActionEvent>() {
+			@Override
+			public void handle(ActionEvent arg0) {
+				primaryStage.close();
+			}
+		});
+		
+		//Search
+		btnSearch.setOnAction(new EventHandler<ActionEvent>() {
+			@Override
+			public void handle(ActionEvent actionEvent) {
+				int uid = Integer.parseInt(txtUid.getText());
+				User user = new UserCRUD().search(uid);
+				if(user.getUid()>0) {
+					//Record found and display
+					txtName.setText(user.getFullName());
+					txtAddress.setText(user.getAddress());
+					txtEmail.setText(user.getEmail());
+					txtLoginID.setText(user.getLoginID());
+					txtLoginPassword.setText(user.getLoginPassword());
+					lblMessage.setText("Record found !");
+				}
+				else {
+					txtName.setText("");
+					txtAddress.setText("");
+					txtEmail.setText("");
+					txtLoginID.setText("");
+					txtLoginPassword.setText("");
+					lblMessage.setText("Record not found !");
+				}
+			}
+		});
 		
 		//FlowPane pane=new FlowPane();
 		Pane pane=new Pane();
