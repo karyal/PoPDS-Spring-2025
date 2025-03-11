@@ -114,6 +114,28 @@ public class EditUser extends Application {
 			}
 		});
 		
+		
+		btnEdit.setOnAction(new EventHandler<ActionEvent>() {
+			@Override
+			public void handle(ActionEvent ActionEvent) {
+				//code to update record
+				User user = new User();
+				user.setUid(Integer.parseInt(txtUid.getText()));
+				user.setFullName(txtName.getText());
+				user.setAddress(txtAddress.getText());
+				user.setEmail(txtEmail.getText());
+				user.setLoginID(txtLoginID.getText());
+				user.setLoginPassword(txtLoginPassword.getText());
+				boolean result = new UserCRUD().update(user);
+				if(result==true) {
+					lblMessage.setText("Update record!");
+				}
+				else {
+					lblMessage.setText("Error to update record");
+				}
+			}
+		});
+		
 		//FlowPane pane=new FlowPane();
 		Pane pane=new Pane();
 		Scene scene = new Scene(pane);

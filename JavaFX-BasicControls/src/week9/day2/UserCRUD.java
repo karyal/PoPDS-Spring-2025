@@ -58,8 +58,42 @@ public class UserCRUD extends MyDatabase implements InfUserCRUD {
 		return user;
 	}
 	
+	@Override
+	public boolean update(User user) {
+		
+		boolean result=false;
+		Connection conn;
+		String strSQL="UPDATE users SET full_name=?, address=?, email=?, login_id=?, login_pass=? WHERE uid=?;";
+		PreparedStatement pStat;
+		
+		try {
+			conn = connect();
+			pStat = conn.prepareStatement(strSQL);
+			pStat.setString(1, user.getFullName());
+			pStat.setString(2, user.getAddress());
+			pStat.setString(3, user.getEmail());
+			pStat.setString(4, user.getLoginID());
+			pStat.setString(5, user.getLoginPassword());
+			pStat.setInt(6, user.getUid());
+			pStat.executeUpdate(); //insert, update, delete
+			pStat.close();
+			close(conn);
+			result=true;
+		}
+		catch(Exception ex) {
+			System.out.println("Error : "+ex.getMessage());
+		}
+		return result;
+	}
+	
 	//Search
 	//SelectALL
 	//Update
 	//Delete
 }
+
+
+
+
+
+
