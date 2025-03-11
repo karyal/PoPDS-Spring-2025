@@ -33,8 +33,6 @@
     <fullyQualifiedTypeName name="javafx.scene.control.ScrollBar"/>
     <fullyQualifiedTypeName name="javafx.scene.control.ScrollPane"/>
     <fullyQualifiedTypeName name="javafx.scene.shape.Rectangle"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
-    <fullyQualifiedTypeName name="javafx.scene.control.TableColumn"/>
     <fullyQualifiedTypeName name="javafx.scene.control.TextArea"/>
     <fullyQualifiedTypeName name="javafx.scene.control.MenuBar"/>
     <fullyQualifiedTypeName name="javafx.scene.control.Menu"/>
@@ -59,4 +57,7 @@
     <fullyQualifiedTypeName name="week9.day1.MyDatabase"/>
     <fullyQualifiedTypeName name="week9.day1.UserCRUD"/>
     <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.TableView"/>
+    <fullyQualifiedTypeName name="javafx.scene.control.TableColumn"/>
+    <fullyQualifiedTypeName name="basic_controls.Person"/>
 </qualifiedTypeNameHistroy>

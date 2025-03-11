@@ -3,6 +3,8 @@ package week9.day2;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserCRUD extends MyDatabase implements InfUserCRUD {
 
@@ -56,6 +58,34 @@ public class UserCRUD extends MyDatabase implements InfUserCRUD {
 			System.out.println("Error : "+ex.getMessage());
 		}
 		return user;
+	}
+	
+	@Override
+	public List all() {
+		Connection conn;
+		PreparedStatement pStat;
+		ResultSet resultSet;
+		String sqlQuery="SELECT * FROM users";
+		List<User> users = new ArrayList<User>();		
+		try {
+			conn = connect();
+			pStat = conn.prepareStatement(sqlQuery);
+			resultSet = pStat.executeQuery(); //Select
+			while(resultSet.next()) {
+				User user = new User();
+				user.setUid(resultSet.getInt("uid"));
+				user.setFullName(resultSet.getString("full_name"));
+				user.setAddress(resultSet.getString("address"));
+				user.setEmail(resultSet.getString("email"));
+				user.setLoginID(resultSet.getString("login_id"));
+				user.setLoginPassword(resultSet.getString("login_pass"));
+				users.add(user);
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Error : "+ex.getMessage());
+		}
+		return users;
 	}
 	
 	@Override
