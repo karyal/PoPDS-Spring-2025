@@ -84,8 +84,7 @@ public class AllUsers extends Application {
 			@Override
 			public void handle(ActionEvent actionEvent) {
 				//Add Row on Table
-				//tblUsers.getItems().add(new User(1,"Raj Rai","Balkhu","raj@gmail.com", "raj","raj"));
-				
+				//tblUsers.getItems().add(new User(1,"Raj Rai","Balkhu","raj@gmail.com", "raj","raj"));				
 				List<User> users = new UserCRUD().all();
 				//Clear All
 				tblUsers.getItems().clear();
