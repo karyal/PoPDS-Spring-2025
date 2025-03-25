@@ -8,6 +8,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Font;
@@ -25,6 +26,8 @@ public class MainWindow extends Application {
 		TextField txtSid, txtName, txtCourse, txtLevel, txtSection, txtSub1, txtSub2, txtTotal, txtAverage, txtResult;
 		Button btnSearch, btnCalculate, btnNew, btnSave, btnEdit, btnDelete, btnExport;
 
+		TableView tblStudents;
+		
 		Font font1 = new Font("Arial", 25);
 		Font font2 = new Font("Arial", 16);
 
@@ -99,20 +102,25 @@ public class MainWindow extends Application {
 		txtResult = new TextField();
 		txtResult.relocate(150, 350);
 
+		tblStudents=new TableView();
+		tblStudents.setPrefHeight(185);
+		tblStudents.setPrefWidth(550);
+		tblStudents.relocate(50, 385);
+		
 		btnNew = new Button("New");
-		btnNew.relocate(50, 385);
+		btnNew.relocate(50, 585);
 
 		btnSave = new Button("Save");
-		btnSave.relocate(120, 385);
+		btnSave.relocate(120, 585);
 
 		btnEdit = new Button("Edit");
-		btnEdit.relocate(190, 385);
+		btnEdit.relocate(190, 585);
 
 		btnDelete = new Button("Delete");
-		btnDelete.relocate(260, 385);
+		btnDelete.relocate(260, 585);
 
 		btnExport = new Button("Export All");
-		btnExport.relocate(330, 385);
+		btnExport.relocate(330, 585);
 
 		btnSave.setOnAction(new EventHandler<ActionEvent>() {
 			@Override
@@ -225,7 +233,7 @@ public class MainWindow extends Application {
 		Scene scene = new Scene(pane);
 		primaryStage.setScene(scene);
 		primaryStage.setWidth(700);
-		primaryStage.setHeight(500);
+		primaryStage.setHeight(700);
 
 		// Add Controls
 		pane.getChildren().addAll(lblTitle, lblSid, txtSid, btnSearch);
@@ -238,6 +246,7 @@ public class MainWindow extends Application {
 		pane.getChildren().addAll(lblTotal, txtTotal);
 		pane.getChildren().addAll(lblAverage, txtAverage);
 		pane.getChildren().addAll(lblResult, txtResult);
+		pane.getChildren().addAll(tblStudents);
 		pane.getChildren().addAll(btnNew, btnSave, btnEdit, btnDelete, btnExport);
 
 		// Display Window
