@@ -8,8 +8,10 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
@@ -104,8 +106,33 @@ public class MainWindow extends Application {
 
 		tblStudents=new TableView();
 		tblStudents.setPrefHeight(185);
-		tblStudents.setPrefWidth(550);
+		tblStudents.setPrefWidth(850);
 		tblStudents.relocate(50, 385);
+		
+		//Add Columns
+		TableColumn colSid = new TableColumn<>("SID");
+		TableColumn colName = new TableColumn("FULLNAME");
+		TableColumn colCourse = new TableColumn("COURSE");
+		TableColumn colLevel = new TableColumn("LEVEL");
+		TableColumn colSection = new TableColumn("SECTION");
+		TableColumn colDcn = new TableColumn("DCN");
+		TableColumn colPoP = new TableColumn("POP");
+		TableColumn colTotal = new TableColumn("TOTAL");
+		TableColumn colAverage = new TableColumn("PERCENTAGE");
+		TableColumn colResult = new TableColumn("RESULT");
+		
+		
+		
+		tblStudents.getColumns().add(colSid);
+		tblStudents.getColumns().add(colName);
+		tblStudents.getColumns().add(colCourse);
+		tblStudents.getColumns().add(colLevel);
+		tblStudents.getColumns().add(colSection);
+		tblStudents.getColumns().add(colDcn);
+		tblStudents.getColumns().add(colPoP);
+		tblStudents.getColumns().add(colTotal);
+		tblStudents.getColumns().add(colAverage);
+		tblStudents.getColumns().add(colResult);
 		
 		btnNew = new Button("New");
 		btnNew.relocate(50, 585);
@@ -229,10 +256,11 @@ public class MainWindow extends Application {
 				}
 			}
 		});
+		
 		Pane pane = new Pane();
 		Scene scene = new Scene(pane);
 		primaryStage.setScene(scene);
-		primaryStage.setWidth(700);
+		primaryStage.setWidth(1000);
 		primaryStage.setHeight(700);
 
 		// Add Controls
